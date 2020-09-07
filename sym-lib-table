@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name electronics-rocket-test-stand)(type Legacy)(uri ${KIPRJMOD}/electronics-rocket-test-stand.lib)(options "")(descr ""))
+)
