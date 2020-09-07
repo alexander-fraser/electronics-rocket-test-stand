@@ -14,157 +14,445 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A?
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5F56846C
-P 6000 3900
-F 0 "A?" H 6000 2811 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 6000 2720 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 6000 3900 50  0001 C CIN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6000 3900 50  0001 C CNN
-	1    6000 3900
+P 5700 3850
+F 0 "A1" H 5700 2761 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 5700 2670 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5700 3850 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5700 3850 50  0001 C CNN
+	1    5700 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT2
 U 1 1 5F56A52D
-P 4350 3200
-F 0 "BT?" H 4468 3296 50  0000 L CNN
-F 1 "Battery_Cell" H 4468 3205 50  0000 L CNN
-F 2 "" V 4350 3260 50  0001 C CNN
-F 3 "~" V 4350 3260 50  0001 C CNN
-	1    4350 3200
-	1    0    0    -1  
+P 9650 5150
+F 0 "BT2" H 9768 5246 50  0000 L CNN
+F 1 "Battery_Cell" H 9768 5155 50  0000 L CNN
+F 2 "" V 9650 5210 50  0001 C CNN
+F 3 "~" V 9650 5210 50  0001 C CNN
+	1    9650 5150
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5F56C317
-P 4500 4200
-F 0 "D?" H 4493 4417 50  0000 C CNN
-F 1 "LED" H 4493 4326 50  0000 C CNN
-F 2 "" H 4500 4200 50  0001 C CNN
-F 3 "~" H 4500 4200 50  0001 C CNN
-	1    4500 4200
-	1    0    0    -1  
+P 2950 5050
+F 0 "D1" H 2943 5267 50  0000 C CNN
+F 1 "LED" H 2943 5176 50  0000 C CNN
+F 2 "" H 2950 5050 50  0001 C CNN
+F 3 "~" H 2950 5050 50  0001 C CNN
+	1    2950 5050
+	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 5F56C9CF
-P 4450 5050
-F 0 "SW?" H 4450 5335 50  0000 C CNN
-F 1 "SW_Push" H 4450 5244 50  0000 C CNN
-F 2 "" H 4450 5250 50  0001 C CNN
-F 3 "~" H 4450 5250 50  0001 C CNN
-	1    4450 5050
+P 2650 4550
+F 0 "SW1" H 2650 4835 50  0000 C CNN
+F 1 "SW_Push" H 2650 4744 50  0000 C CNN
+F 2 "" H 2650 4750 50  0001 C CNN
+F 3 "~" H 2650 4750 50  0001 C CNN
+	1    2650 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5F56D03E
-P 3600 3200
-F 0 "BT?" H 3718 3296 50  0000 L CNN
-F 1 "Battery_Cell" H 3718 3205 50  0000 L CNN
-F 2 "" V 3600 3260 50  0001 C CNN
-F 3 "~" V 3600 3260 50  0001 C CNN
-	1    3600 3200
+P 1900 3350
+F 0 "BT1" H 2018 3446 50  0000 L CNN
+F 1 "Battery_Cell" H 2018 3355 50  0000 L CNN
+F 2 "" V 1900 3410 50  0001 C CNN
+F 3 "~" V 1900 3410 50  0001 C CNN
+	1    1900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L electronics-rocket-test-stand:HX711_Board U?
+L electronics-rocket-test-stand:HX711_Board U1
 U 1 1 5F57089C
-P 7550 3900
-F 0 "U?" H 7550 4631 50  0000 C CNN
-F 1 "HX711_Board" H 7550 4540 50  0000 C CNN
-F 2 "" H 7550 3850 50  0001 C CNN
-F 3 "" H 7550 3850 50  0001 C CNN
-	1    7550 3900
+P 8050 2850
+F 0 "U1" H 8050 3581 50  0000 C CNN
+F 1 "HX711_Board" H 8050 3490 50  0000 C CNN
+F 2 "" H 8050 2800 50  0001 C CNN
+F 3 "" H 8050 2800 50  0001 C CNN
+	1    8050 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L electronics-rocket-test-stand:JQC3F_5V_Relay_Board K?
+L electronics-rocket-test-stand:JQC3F_5V_Relay_Board K1
 U 1 1 5F574864
-P 9050 3900
-F 0 "K?" H 9050 4581 50  0000 C CNN
-F 1 "JQC3F_5V_Relay_Board" H 9050 4490 50  0000 C CNN
-F 2 "" H 9050 3900 50  0001 C CNN
-F 3 "" H 9050 3900 50  0001 C CNN
-	1    9050 3900
+P 8300 5250
+F 0 "K1" H 8300 5931 50  0000 C CNN
+F 1 "JQC3F_5V_Relay_Board" H 8300 5840 50  0000 C CNN
+F 2 "" H 8300 5250 50  0001 C CNN
+F 3 "" H 8300 5250 50  0001 C CNN
+	1    8300 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F577A0D
-P 3200 3950
-F 0 "J?" H 3280 3942 50  0000 L CNN
-F 1 "Conn_01x02" H 3280 3851 50  0000 L CNN
-F 2 "" H 3200 3950 50  0001 C CNN
-F 3 "~" H 3200 3950 50  0001 C CNN
-	1    3200 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F578416
-P 3200 4250
-F 0 "J?" H 3280 4242 50  0000 L CNN
-F 1 "Conn_01x02" H 3280 4151 50  0000 L CNN
-F 2 "" H 3200 4250 50  0001 C CNN
-F 3 "~" H 3200 4250 50  0001 C CNN
-	1    3200 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 5F578ACB
-P 3200 4650
-F 0 "J?" H 3280 4642 50  0000 L CNN
-F 1 "Conn_01x04" H 3280 4551 50  0000 L CNN
-F 2 "" H 3200 4650 50  0001 C CNN
-F 3 "~" H 3200 4650 50  0001 C CNN
-	1    3200 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F57D5D4
-P 2250 3950
-F 0 "J?" H 2330 3942 50  0000 L CNN
-F 1 "Conn_01x02" H 2330 3851 50  0000 L CNN
-F 2 "" H 2250 3950 50  0001 C CNN
-F 3 "~" H 2250 3950 50  0001 C CNN
-	1    2250 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F57D24A
-P 2250 4250
-F 0 "J?" H 2330 4242 50  0000 L CNN
-F 1 "Conn_01x02" H 2330 4151 50  0000 L CNN
-F 2 "" H 2250 4250 50  0001 C CNN
-F 3 "~" H 2250 4250 50  0001 C CNN
-	1    2250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 5F57CA76
-P 2250 4650
-F 0 "J?" H 2330 4642 50  0000 L CNN
-F 1 "Conn_01x04" H 2330 4551 50  0000 L CNN
-F 2 "" H 2250 4650 50  0001 C CNN
-F 3 "~" H 2250 4650 50  0001 C CNN
-	1    2250 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L electronics-rocket-test-stand:Load_Cell U?
+L electronics-rocket-test-stand:Load_Cell U3
 U 1 1 5F58183E
-P 7550 4950
-F 0 "U?" H 7778 5001 50  0000 L CNN
-F 1 "Load_Cell" H 7778 4910 50  0000 L CNN
-F 2 "" H 7550 4950 50  0001 C CNN
-F 3 "" H 7550 4950 50  0001 C CNN
-	1    7550 4950
+P 10150 2750
+F 0 "U3" H 10378 2801 50  0000 L CNN
+F 1 "Load_Cell" H 10378 2710 50  0000 L CNN
+F 2 "" H 10150 2750 50  0001 C CNN
+F 3 "" H 10150 2750 50  0001 C CNN
+	1    10150 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5F58572B
+P 8950 2700
+F 0 "J3" H 8978 2676 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 8978 2585 50  0000 L CNN
+F 2 "" H 8950 2700 50  0001 C CNN
+F 3 "~" H 8950 2700 50  0001 C CNN
+	1    8950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5F586795
+P 9350 2700
+F 0 "J4" H 9458 2981 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 9458 2890 50  0000 C CNN
+F 2 "" H 9350 2700 50  0001 C CNN
+F 3 "~" H 9350 2700 50  0001 C CNN
+	1    9350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2600 9550 2600
+Wire Wire Line
+	9850 2700 9550 2700
+Wire Wire Line
+	9850 2800 9550 2800
+Wire Wire Line
+	9850 2900 9550 2900
+Wire Wire Line
+	8450 2600 8750 2600
+Wire Wire Line
+	8450 2700 8750 2700
+Wire Wire Line
+	8450 2800 8750 2800
+Wire Wire Line
+	8450 2900 8750 2900
+NoConn ~ 8450 3000
+NoConn ~ 8450 3100
+NoConn ~ 8800 5250
+$Comp
+L Device:R R1
+U 1 1 5F58C692
+P 2500 5050
+F 0 "R1" H 2570 5096 50  0000 L CNN
+F 1 "R" H 2570 5005 50  0000 L CNN
+F 2 "" V 2430 5050 50  0001 C CNN
+F 3 "~" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5F58DE47
+P 2700 3350
+F 0 "J1" H 2672 3232 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 2672 3323 50  0000 R CNN
+F 2 "" H 2700 3350 50  0001 C CNN
+F 3 "~" H 2700 3350 50  0001 C CNN
+	1    2700 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5F58F3E0
+P 3250 3350
+F 0 "J2" H 3142 3025 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3142 3116 50  0000 C CNN
+F 2 "" H 3250 3350 50  0001 C CNN
+F 3 "~" H 3250 3350 50  0001 C CNN
+	1    3250 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3150 2500 3150
+Wire Wire Line
+	2500 3150 2500 3250
+Wire Wire Line
+	1900 3450 2500 3450
+Wire Wire Line
+	2500 3450 2500 3350
+$Comp
+L power:GND #PWR04
+U 1 1 5F591904
+P 3600 3600
+F 0 "#PWR04" H 3600 3350 50  0001 C CNN
+F 1 "GND" H 3605 3427 50  0000 C CNN
+F 2 "" H 3600 3600 50  0001 C CNN
+F 3 "" H 3600 3600 50  0001 C CNN
+	1    3600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3250 3600 3250
+Wire Wire Line
+	3600 3250 3600 2850
+Wire Wire Line
+	3450 3350 3600 3350
+Wire Wire Line
+	3600 3350 3600 3600
+$Comp
+L power:+9V #PWR03
+U 1 1 5F592985
+P 3600 2850
+F 0 "#PWR03" H 3600 2700 50  0001 C CNN
+F 1 "+9V" H 3615 3023 50  0000 C CNN
+F 2 "" H 3600 2850 50  0001 C CNN
+F 3 "" H 3600 2850 50  0001 C CNN
+	1    3600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5F59378A
+P 5900 2550
+F 0 "#PWR07" H 5900 2400 50  0001 C CNN
+F 1 "+5V" H 5915 2723 50  0000 C CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR010
+U 1 1 5F59414E
+P 8300 4350
+F 0 "#PWR010" H 8300 4200 50  0001 C CNN
+F 1 "+5V" H 8315 4523 50  0000 C CNN
+F 2 "" H 8300 4350 50  0001 C CNN
+F 3 "" H 8300 4350 50  0001 C CNN
+	1    8300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 5F594899
+P 8050 1950
+F 0 "#PWR08" H 8050 1800 50  0001 C CNN
+F 1 "+5V" H 8065 2123 50  0000 C CNN
+F 2 "" H 8050 1950 50  0001 C CNN
+F 3 "" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5F595209
+P 8300 6000
+F 0 "#PWR011" H 8300 5750 50  0001 C CNN
+F 1 "GND" H 8305 5827 50  0000 C CNN
+F 2 "" H 8300 6000 50  0001 C CNN
+F 3 "" H 8300 6000 50  0001 C CNN
+	1    8300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5F596050
+P 8050 3600
+F 0 "#PWR09" H 8050 3350 50  0001 C CNN
+F 1 "GND" H 8055 3427 50  0000 C CNN
+F 2 "" H 8050 3600 50  0001 C CNN
+F 3 "" H 8050 3600 50  0001 C CNN
+	1    8050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F5966C7
+P 5800 5250
+F 0 "#PWR06" H 5800 5000 50  0001 C CNN
+F 1 "GND" H 5805 5077 50  0000 C CNN
+F 2 "" H 5800 5250 50  0001 C CNN
+F 3 "" H 5800 5250 50  0001 C CNN
+	1    5800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2850 5900 2550
+Wire Wire Line
+	8300 5750 8300 6000
+Wire Wire Line
+	8300 4750 8300 4350
+Wire Wire Line
+	8050 2300 8050 1950
+Wire Wire Line
+	8050 3400 8050 3600
+Wire Wire Line
+	5800 4850 5800 5250
+NoConn ~ 5700 4850
+NoConn ~ 5800 2850
+NoConn ~ 6200 3250
+NoConn ~ 6200 3350
+NoConn ~ 6200 3650
+NoConn ~ 6200 3850
+NoConn ~ 6200 3950
+NoConn ~ 6200 4050
+NoConn ~ 6200 4150
+NoConn ~ 6200 4250
+NoConn ~ 6200 4350
+NoConn ~ 6200 4450
+NoConn ~ 6200 4550
+NoConn ~ 5200 4550
+NoConn ~ 5200 4450
+NoConn ~ 5200 4350
+NoConn ~ 5200 4250
+NoConn ~ 5200 3250
+NoConn ~ 5200 3350
+NoConn ~ 5200 3450
+NoConn ~ 5200 3550
+NoConn ~ 5200 3650
+Text GLabel 7550 5250 0    50   Input ~ 0
+Relay
+Wire Wire Line
+	7800 5250 7550 5250
+Text GLabel 4900 4150 0    50   Input ~ 0
+Relay
+Wire Wire Line
+	5200 4150 4900 4150
+Text GLabel 4900 4050 0    50   Input ~ 0
+DT
+Text GLabel 4900 3950 0    50   Input ~ 0
+SCK
+Text GLabel 4900 3850 0    50   Input ~ 0
+LED
+Text GLabel 4900 3750 0    50   Input ~ 0
+Button
+Wire Wire Line
+	5200 3750 4900 3750
+Wire Wire Line
+	5200 3850 4900 3850
+Wire Wire Line
+	5200 3950 4900 3950
+Wire Wire Line
+	5200 4050 4900 4050
+Text GLabel 7400 2800 0    50   Input ~ 0
+DT
+Text GLabel 7400 2900 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	7650 2800 7400 2800
+Wire Wire Line
+	7650 2900 7400 2900
+$Comp
+L power:+9V #PWR05
+U 1 1 5F5A09EC
+P 5600 2550
+F 0 "#PWR05" H 5600 2400 50  0001 C CNN
+F 1 "+9V" H 5615 2723 50  0000 C CNN
+F 2 "" H 5600 2550 50  0001 C CNN
+F 3 "" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2850 5600 2550
+Wire Wire Line
+	2650 5050 2800 5050
+$Comp
+L electronics-rocket-test-stand:Igniter U2
+U 1 1 5F5BEE88
+P 9600 5650
+F 0 "U2" V 9865 5650 50  0000 C CNN
+F 1 "Igniter" V 9774 5650 50  0000 C CNN
+F 2 "" H 9600 5650 50  0001 C CNN
+F 3 "" H 9600 5650 50  0001 C CNN
+	1    9600 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 5150 8800 5150
+Wire Wire Line
+	8800 5350 9300 5350
+Wire Wire Line
+	9300 5350 9300 5650
+Wire Wire Line
+	9900 5650 9900 5150
+Wire Wire Line
+	9900 5150 9750 5150
+$Comp
+L power:GND #PWR02
+U 1 1 5F5CA2C9
+P 3400 5050
+F 0 "#PWR02" H 3400 4800 50  0001 C CNN
+F 1 "GND" V 3405 4922 50  0000 R CNN
+F 2 "" H 3400 5050 50  0001 C CNN
+F 3 "" H 3400 5050 50  0001 C CNN
+	1    3400 5050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2100 5050 0    50   Input ~ 0
+LED
+Wire Wire Line
+	2100 5050 2350 5050
+Wire Wire Line
+	3100 5050 3400 5050
+Text GLabel 2100 4550 0    50   Input ~ 0
+Button
+$Comp
+L power:GND #PWR01
+U 1 1 5F5E010F
+P 3400 4550
+F 0 "#PWR01" H 3400 4300 50  0001 C CNN
+F 1 "GND" V 3405 4422 50  0000 R CNN
+F 2 "" H 3400 4550 50  0001 C CNN
+F 3 "" H 3400 4550 50  0001 C CNN
+	1    3400 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4550 3400 4550
+Wire Wire Line
+	2100 4550 2450 4550
+Text Notes 1600 2500 0    50   ~ 0
+Power Supply
+Wire Notes Line
+	1550 2400 3900 2400
+Wire Notes Line
+	3900 2400 3900 3950
+Wire Notes Line
+	3900 3950 1550 3950
+Wire Notes Line
+	1550 3950 1550 2400
+Wire Notes Line
+	6900 4050 6900 6350
+Wire Notes Line
+	6900 6350 10150 6350
+Wire Notes Line
+	10150 6350 10150 4050
+Wire Notes Line
+	10150 4050 6900 4050
+Text Notes 6950 4150 0    50   ~ 0
+Ignition
+Wire Notes Line
+	6900 1600 10950 1600
+Wire Notes Line
+	10950 1600 10950 4000
+Wire Notes Line
+	10950 4000 6900 4000
+Wire Notes Line
+	6900 4000 6900 1600
+Text Notes 6950 1700 0    50   ~ 0
+Thrust Measurement
+Wire Notes Line
+	1550 4000 3900 4000
+Wire Notes Line
+	3900 4000 3900 5550
+Wire Notes Line
+	3900 5550 1550 5550
+Wire Notes Line
+	1550 5550 1550 4000
+Text Notes 1600 4100 0    50   ~ 0
+Interface
 $EndSCHEMATC
